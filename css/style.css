@@ -134,7 +134,7 @@ ul {
     padding: 0;
     height: 40px;
     width: 40px;
-    margin: 0 auto;
+    margin: 0 auto 5px;
   }
   .page .sidebar ul li a i {
     margin: 0;
@@ -1035,6 +1035,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
   border: 1px solid #ccc;
   padding: 10px;
   font-size: 13px;
+  border-radius: 6px;
 }
 .settings .box-1 textarea:focus {
   outline: none;
@@ -1587,7 +1588,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
   .projects .content {
     grid-template-columns: minmax(200px, 1fr);
     grid-gap: 10px;
-    padding: 10px;
+    padding: 10px 0;
     margin: 0 10px;
   }
   .projects .box .progress {
@@ -1728,7 +1729,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
   left: 15px
 }
 .courses .box img:last-of-type {
-  max-width: 100%;
+  width: 100%;
 }
 .courses .box .text {
   padding: 20px;
@@ -1751,7 +1752,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
   padding: 5px 10px;
   border-radius: 6px;
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   transition: 0.3s;
 }
 .courses .box a:hover {
@@ -2173,6 +2174,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
   width: fit-content;
   color: var(--span-color);
   font-weight: 500;
+  font-size: 13px;
 }
 /*End Plans */
 
