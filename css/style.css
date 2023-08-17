@@ -1746,9 +1746,9 @@ label .toggle-checkbox:checked + .toggle-switch::before {
 .courses .box a {
   display: block;
   width: fit-content;
+  margin: 0 auto 10px;
   background-color: var(--blue-color);
   color: white;
-  margin: 0 auto 10px;
   padding: 5px 10px;
   border-radius: 6px;
   position: relative;
