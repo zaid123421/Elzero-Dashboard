@@ -2169,7 +2169,7 @@ label .toggle-checkbox:checked + .toggle-switch::before {
 .plans .box-2 .info a {
   background-color: var(--blue-color);
 }
-.plans .box-3 .info div.last-p {
+.plans .box-3 .info .last-p {
   display: flex;
   align-items: center;
   justify-content: center;
